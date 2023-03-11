@@ -35,7 +35,17 @@ console.log(edad>18 || edad <35)
 console.log(edad === 34)
 */
 
+/*
 // "!NOT"
 console.log(!0) //true negando false
 console.log(!1) //false negando true
+console.log(!"") //true
+console.log(!"Contenido") //false
+console.log(!(10>15))
+*/
+
+// "??
+console.log(null ?? 'Hola')
+console.log(undefined ?? 'Hola')
+console.log("" ?? 'Hola')
 
